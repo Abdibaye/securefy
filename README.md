@@ -42,6 +42,7 @@ SecureFy solves this by:
 | DB           | Neon (PostgreSQL)                         |
 | File Uploads | Amazon S3 (pre-signed URLs)               |
 | AI Services  | Google Vision API (or local OCR fallback) |
+| ID Lookup	   | Fayda API                                 | 
 | Deployment   | Vercel (frontend), Render (backend)       |
 
 ---
