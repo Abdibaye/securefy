@@ -69,9 +69,9 @@ pnpm dev
 
 Built by
 
-Abdi 
-Abdi 
-Sagni
+Abdi Bayisa,
+Abdi Gashahun,
+Sagni Tsega,
 
 ---
 
