@@ -2,7 +2,7 @@
 
 SecureFy is a lightweight, privacy-focused digital identity verification solution tailored for the Ethiopian market. It empowers businesses to securely verify customer identities using national ID documents, facial recognition, and real-time validation workflows.
 
-> 👷‍♂️ Built in 7 days during the Cursor Hackathon Addis Ababa 2025
+> 👷‍♂️ Built in 7 days during the Fayda Hackathon Addis Ababa 2025
 > 🔐 Designed to boost digital trust for local startups, enterprises, and institutions
 
 ---
