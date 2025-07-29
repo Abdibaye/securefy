@@ -80,6 +80,4 @@ Sagni Tsega,
 
 MIT License — open for collaboration and use in projects that support Ethiopia's digital ecosystem.
 
----
 
-Want me to help you write the landing page copy next? Or maybe define the API response format?
