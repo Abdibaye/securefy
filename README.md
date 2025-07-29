@@ -47,7 +47,7 @@ SecureFy solves this by:
 
 ---
 
-## 📦 How to Run Locally
+## 📦 Installation & Deployment
 
 ```bash
 # 1. Clone the repo
