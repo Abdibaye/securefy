@@ -58,7 +58,7 @@ pnpm install
 
 # 3. Add env variables
 cp .env.example .env.local
-# Add Supabase / BetterAuth / DB / S3 creds
+# Add neon / BetterAuth / DB / S3 creds
 
 # 4. Run the dev server
 pnpm dev
