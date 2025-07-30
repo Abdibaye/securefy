@@ -51,7 +51,7 @@ SecureFy solves this by:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/securefy.git && cd securefy
+git clone https://github.com/Abdibaye/securefy.git && cd securefy
 
 # 2. Install dependencies
 pnpm install
@@ -61,7 +61,7 @@ cp .env.example .env.local
 # Add neon / BetterAuth / DB / S3 creds
 
 # 4. Run the dev server
-pnpm dev
+pnpm run dev
 ```
 
 ---
