@@ -183,16 +183,16 @@ export default function Page() {
                 {loading ? "Logging in..." : "Log in"}
               </Button>
 
-              <div className="relative">
+              {/* <div className="relative">
                 <div className="absolute inset-0 flex items-center">
                   <div className="w-full border-t border-gray-300"></div>
                 </div>
                 <div className="relative flex justify-center text-sm">
                   <span className="px-2 bg-white text-gray-500">OR</span>
                 </div>
-              </div>
+              </div> */}
 
-              <Button
+              {/* <Button
                 variant="outline"
                 className="w-full border-primary/20 text-primary hover:bg-primary/5 font-medium py-2 px-4 rounded-md transition-colors bg-transparent"
                 type="button"
@@ -200,7 +200,7 @@ export default function Page() {
               >
                 <span className="mr-2">🔐</span>
                 Use single sign-on (SSO)
-              </Button>
+              </Button> */}
             </form>
           </CardContent>
         </Card>
