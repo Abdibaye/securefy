@@ -38,24 +38,24 @@ import { ShieldIcon } from "lucide-react"
 
 const data = {
   user: {
-    name: "shadcn",
+    name: "sagnik",
     email: "m@example.com",
     avatar: "/avatars/shadcn.jpg",
   },
   navMain: [
     {
       title: "Dashboard",
-      url: "#",
+      url: "/admin",
       icon: IconDashboard,
     },
     {
       title: "Submit Verification",
-      url: "#",
+      url: "admin/requests",
       icon: IconListDetails,
     },
     {
       title: "My Requests",
-      url: "#",
+      url: "admin/my-requests",
       icon: IconSend,
     },
     {
