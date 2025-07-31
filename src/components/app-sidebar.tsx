@@ -50,12 +50,12 @@ const data = {
     },
     {
       title: "Submit Verification",
-      url: "admin/requests",
+      url: "admin/verify",
       icon: IconListDetails,
     },
     {
       title: "My Requests",
-      url: "admin/my-requests",
+      url: "admin/requests",
       icon: IconSend,
     },
     {
