@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import { IconCirclePlusFilled, IconMail, type Icon } from "@tabler/icons-react"
 
 import { Button } from "@/components/ui/button"
@@ -10,7 +11,6 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
-import Link from "next/link"
 
 export function NavMain({
   items,
@@ -45,14 +45,15 @@ export function NavMain({
         </SidebarMenu>
         <SidebarMenu>
           {items.map((item) => (
-            <Link key={item.title} href={item.url}>
-              <SidebarMenuItem>
-                <SidebarMenuButton tooltip={item.title}>
+            <SidebarMenuItem key={item.title}>
+              {/* Use Next.js <Link> for client-side navigation */}
+              <SidebarMenuButton tooltip={item.title} asChild>
+                <Link href={item.url}>
                   {item.icon && <item.icon />}
                   <span>{item.title}</span>
-                </SidebarMenuButton>
+                </Link>
+              </SidebarMenuButton>
             </SidebarMenuItem>
-            </Link>
           ))}
         </SidebarMenu>
       </SidebarGroupContent>
