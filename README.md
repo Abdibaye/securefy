@@ -70,7 +70,7 @@ pnpm run dev
 
 Built by
 
-Abdi Bayisa,
+Abdi Bayisa Banti(user.abdi.001@gmail.com),
 Abdi Gashahun,
 Sagni Tsega,
 
