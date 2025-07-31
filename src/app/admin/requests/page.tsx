@@ -131,7 +131,7 @@ export default function RequestsPage() {
   };
 
   return (
-    <div className="w-full mx-auto mt-5 p-4">
+    <div className="w-full mx-auto mt-2 p-4">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 mb-6">
         <div className="flex gap-2 items-center">
           <Input

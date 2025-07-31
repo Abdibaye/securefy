@@ -53,7 +53,7 @@ export default function Page() {
           onSuccess: () => {
             setLoading(false)
             toast.success("Login successful!")
-            router.push("/dashboard")
+            router.push("/admin")
           },
           onError: (ctx: { error: { message: string } }) => {
             setLoading(false)
@@ -87,7 +87,7 @@ export default function Page() {
         {/* Logo */}
         <div className="relative z-10 flex flex-col items-center">
           <div className="w-24 h-24 mb-4 relative">
-            {/* Shield logo icon */}
+            {/* Shield123456 logo icon */}
             <div className="w-full h-full bg-white rounded-2xl flex items-center justify-center shadow-lg">
               <Shield className="w-12 h-12 text-primary" />
             </div>

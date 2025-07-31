@@ -77,7 +77,7 @@ export default function VerifyPage() {
   };
 
   return (
-    <div className="w-full mx-auto mt-10 p-6 bg-white rounded-lg shadow-md border border-gray-100">
+    <div className="w-full mx-auto mt-5 p-6 bg-white rounded-lg shadow-md border border-gray-100">
       <h1 className="text-2xl font-bold mb-2 text-center">Verification Submission</h1>
       <p className="text-gray-500 text-center mb-6 text-sm">Fill in the details below to submit a manual verification request. All fields marked <span className='text-red-500'>*</span> are required.</p>
       <form onSubmit={handleSubmit} className="space-y-6">

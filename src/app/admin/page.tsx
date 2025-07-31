@@ -40,9 +40,8 @@ function StatusBadge({ status }: { status: string }) {
 
 export default function AdminIndexPage() {
   return (
-    <div className="min-h-screen flex flex-col w-full mx-auto px-2 md:px-6 py-8">
-      <h1 className="text-2xl md:text-3xl font-bold mb-6 text-center">Admin Dashboard</h1>
-      {/* Metrics Cards */}
+    <div className="min-h-screen flex flex-col w-full mx-auto px-2 md:px-6 py-2">
+            {/* Metrics Cards */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 mb-8">
         {stats.map((stat) => (
           <Card key={stat.label} className="flex flex-col items-center py-6 px-2">
